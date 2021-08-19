@@ -1,13 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(242, 243, 244);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+::-webkit-input-placeholder { /* Edge */
+  color: white;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  color: white;
+}
+
+.collapse form input::placeholder {
+  color: white;
+}
+.navbar-bg {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.brand-name {
+  width: 242px;
+  height: 46px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+  color: #1b2c87;
+}
+.nav-search {
+  width: 445px;
+  height: 40px;
+  left: 448px;
+  top: 30px;
+
+  background: #b3caff;
+  border-radius: 10px;
+}
+.nav-clicks {
+  height: 37.77px;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+  background-color: white;
+}
+
+.account {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  color: #000000;
+}
+.badges {
+  /* width: 23.31px; */
+  height: 36px;
+  margin-right: 9.69px;
+}
+
+.sub-navbar {
+  margin-top: 5px;
+  /* height: 95px; */
+  border-radius: 15px;
+  border: 6px solid #0d1c6b;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sub-navbar-clicks {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 35px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.download-text {
+  font-family: "Open Sans";
+  font-size: 24px;
+  /* line-height: 33px; */
+  margin-right: 11px;
+  color: #000000;
+}
+
+.download-icon {
+  width: 48px;
+  height: 48px;
+}
+.bg-white {
+  background-color: white;
+}
+
+.second-div {
+  border-radius: 15px;
+  border: 1px solid white;
+  /* margin-top: 20px; */
+}
+
+.horizontal-line {
+  border: 6px solid #000000;
+  margin: 49.96px 0px 69px 0px;
+  color: #000000;
+  background-color: black;
+}
+
+.form-inputs {
+  background: #ffffff;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  height: 54px;
+  margin-bottom: 10px;
+}
+
+.button-color {
+  background: #1b2c87;
+  width: 165px;
+}
+
+.nav-pad {
+  padding: 35px 0px;
+}
+
+.div-pad {
+  padding: 0px 90px;
+}
+
+.certi {
+  width: 812px;
+  height: 577px;
+}
+
+.bg-custom {
+  background-color: rgb(242, 243, 244);
+}
+
+.search {
+  right: 20px;
+  top: 10px;
+  color: rgb(242, 243, 244);
+}
+
+.navbar-subnav {
+  overflow: hidden;
+}
+
+.navbar-subnav a {
+  float: left;
+  display: block;
+  color: black;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar-subnav a:hover {
+  border-bottom: 3px solid #0d286c;
+}
+
+.navbar-subnav a.active {
+  border-bottom: 3px solid #0d286c;
 }
